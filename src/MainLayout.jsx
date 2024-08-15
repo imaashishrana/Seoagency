@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import Footer from '../src/pages/Footer';
 import { FaArrowUp, FaPhoneAlt, FaWhatsapp, FaEnvelope, FaLinkedin, FaInstagram } from 'react-icons/fa'; 
-import { faHome, faInfoCircle, faAddressBook, faBriefcase, faCog, faBlog } from '@fortawesome/free-solid-svg-icons';
-// Correct import of icons
 
 export default function MainLayout() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,13 +34,13 @@ export default function MainLayout() {
       <div className="bg-white text-black p-4 hidden md:flex justify-between">
         {/* Left Side (Social Media Icons) */}
         <div className="flex space-x-6">
-          <a href="https://wa.me/918155873084" className="text-green-600  transition duration-300">
+          <a href="https://wa.me/918155873084" className="text-green-600 transition duration-300">
             <FaWhatsapp size={24} />
           </a>
           <a href="https://www.linkedin.com/in/farah-depariya-922b30262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-blue-600 transition duration-300">
             <FaLinkedin size={24} />
           </a>
-          <a href="https://www.instagram.com/seofreelancer7100?igsh=dmZjeTY5eWdkemc4" className="text-pink-500  transition duration-300">
+          <a href="https://www.instagram.com/seofreelancer7100?igsh=dmZjeTY5eWdkemc4" className="text-pink-500 transition duration-300">
             <FaInstagram size={24} />
           </a>
         </div>
@@ -57,10 +55,9 @@ export default function MainLayout() {
           </a>
         </div>
       </div>
-    
 
       {/* Navbar */}
-      <nav className="bg-fuchsia-400 text-white p-8 sticky top-0 z-40">
+      <nav className="bg-fuchsia-400 text-white p-8 sticky top-0 z-40" style={{ top: 0 }}>
         <div className="flex items-center justify-between">
           {/* Logo and Name */}
           <div className="flex items-center space-x-2">
@@ -116,7 +113,7 @@ export default function MainLayout() {
 
             {/* Small Dropdown Box */}
             {isMenuOpen && (
-              <div className="absolute right-0 mt-2  z-20 w-40 bg-gradient-to-r from-fuchsia-500 to-fuchsia-400 via-blue-500 to-blue-400 text-white rounded-lg shadow-lg">
+              <div className="absolute right-0 mt-2 z-20 w-40 bg-gradient-to-r from-fuchsia-500 to-fuchsia-400 via-blue-500 to-blue-400 text-white rounded-lg shadow-lg">
                 <ul className="flex flex-col space-y-2 p-4">
                   <li>
                     <Link 
@@ -237,18 +234,19 @@ export default function MainLayout() {
       {/* Fixed Scroll to Top Icon */}
       {isVisible && (
         <div
-          className="flex items-center justify-center cursor-pointer fixed bg-fuchsia-600 hover:bg-fuchsia-400 bottom-8 left-4 z-50 rounded-full w-16 h-16"
+          className="fixed bottom-8 right-4 z-50 flex items-center justify-center bg-pink-500 hover:bg-pink-400 text-white rounded-full w-16 h-16 shadow-lg transition-colors text-3xl"
           onClick={scrollToTop}
+          aria-label="Scroll to Top"
         >
-          <FaArrowUp size={24} color="white" />
+          <FaArrowUp size={24} />
         </div>
       )}
 
-      <main className="p-6">
-        <Outlet />
-      </main>
+      {/* Main content */}
+      <Outlet />
 
-      <Footer /> {/* Add the Footer component */}
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
