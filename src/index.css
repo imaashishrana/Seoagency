@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.marquee-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .marquee {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+  }
+  
+  .marquee img {
+    margin-right: 2rem;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
