@@ -5,7 +5,7 @@ import { faFacebookF, faInstagram, faWhatsapp } from '@fortawesome/free-brands-s
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-fuchsia-500 to-fuchsia-400 via-blue-500 to-blue-400 text-white p-8">
+    <footer className="bg-fuchsia-400 text-white p-8">
       <div className="container mx-auto flex flex-wrap justify-between">
         <div className="w-full sm:w-1/2 lg:w-1/4 p-8">
           <h3 className="text-lg font-semibold">Ruby SEO Agency</h3>

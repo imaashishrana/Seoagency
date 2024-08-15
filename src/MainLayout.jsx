@@ -60,7 +60,7 @@ export default function MainLayout() {
     
 
       {/* Navbar */}
-      <nav className="bg-gradient-to-r from-fuchsia-500 to-fuchsia-400 via-blue-500 to-blue-400 text-white p-8 sticky top-0 z-40">
+      <nav className="bg-fuchsia-400 text-white p-8 sticky top-0 z-40">
         <div className="flex items-center justify-between">
           {/* Logo and Name */}
           <div className="flex items-center space-x-2">
