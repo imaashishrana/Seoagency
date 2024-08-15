@@ -40,17 +40,18 @@ const ContactUs = () => {
   };
 
   return (
-    <section className="bg-gray-100 py-10 px-10">
-      <div className="container mx-auto px-4">
-        <div className="container mx-auto mb-12">
-          <h1 className="text-4xl bg-gray-400 text-center font-bold">Contact Us</h1>
+    <section className="bg-gray-100 py-6 px-4 md:px-10 lg:px-20">
+      <div className="container mx-auto">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <h1 className="text-3xl md:text-4xl lg:text-4xl  text-black font-bold py-2 px-4 rounded-md inline-block">Contact Us</h1>
         </div>
 
         {/* Contact Information Section */}
-        <div className="w-full mb-12">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-8 md:gap-6 p-6">
+        <div className="mb-12">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-8">
             {/* Call Us Section */}
-            <div className="flex items-center gap-4 w-full md:w-1/3 p-4 border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-md transition-shadow duration-300">
+            <div className="flex items-center gap-4 p-4 border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-full md:w-1/3">
               <img
                 loading="lazy"
                 decoding="async"
@@ -67,7 +68,7 @@ const ContactUs = () => {
             </div>
 
             {/* Office Location Section */}
-            <div className="flex bg-white items-center gap-4 w-full md:w-1/3 p-4 border border-gray-200 rounded-lg shadow-md hover:shadow-md transition-shadow duration-300">
+            <div className="flex items-center gap-4 p-4 border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-full md:w-1/3">
               <img
                 loading="lazy"
                 decoding="async"
@@ -84,7 +85,7 @@ const ContactUs = () => {
             </div>
 
             {/* Send Us A Message Section */}
-            <div className="flex bg-white items-center gap-4 w-full md:w-1/3 p-4 border border-gray-200 rounded-lg shadow-md hover:shadow-md transition-shadow duration-300">
+            <div className="flex items-center gap-4 p-4 border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-full md:w-1/3">
               <img
                 loading="lazy"
                 decoding="async"
@@ -103,15 +104,15 @@ const ContactUs = () => {
         </div>
 
         {/* Contact Form with Image Section */}
-        <div className="w-full flex flex-col md:flex-row items-center justify-center md:justify-between gap-8">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8">
           {/* Image Section */}
-          <div className="w-full md:w-1/2 h-80 md:h-auto">
-            <img src={fromright} alt="Contact Form" />
+          <div className="w-full md:w-1/2 lg:w-1/2">
+            <img src={fromright} alt="Contact Form" className="w-full h-auto" />
           </div>
 
           {/* Contact Form Section */}
-          <div className="w-full md:w-1/2 p-8">
-            <h5 className="text-2xl font-semibold mb-6 text-center text-gray-800">Get In Touch</h5>
+          <div className="w-full md:w-1/2 lg:w-1/2 p-6 md:p-8">
+            <h5 className="text-xl md:text-2xl font-semibold mb-6 text-center text-gray-800">Get In Touch</h5>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-semibold mb-2 text-gray-700">Name</label>
@@ -203,8 +204,9 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <div className="text-center bg-white p-8 rounded-lg shadow-lg mt-8">
-          <h3 className="text-2xl font-bold mb-4">Let’s Work Together</h3>
+        {/* Call to Action */}
+        <div className="text-center bg-white p-6 md:p-8 rounded-lg shadow-lg mt-8">
+          <h3 className="text-xl md:text-2xl font-bold mb-4">Let’s Work Together</h3>
           <p className="text-gray-700 font-semibold mb-6">
             Looking for a professional SEO freelancer with 5+ years of experience? Let’s connect and work on your next marketing project.
           </p>
