@@ -234,17 +234,19 @@ export default function MainLayout() {
       {/* Fixed Scroll to Top Icon */}
       {isVisible && (
         <div
-          className="fixed bottom-8 md:right-4 right-20 z-50 flex items-center justify-center bg-pink-500 hover:bg-pink-400 text-white rounded-full w-16 h-16 shadow-lg transition-colors text-3xl"
-          onClick={scrollToTop}
-          style={{ cursor: 'pointer' }}
-          title="Scroll to top"
-          aria-label="Scroll to top"
-        >
-          <FaArrowUp />
-        </div>
+        className="fixed bottom-8 left-4 z-50 flex items-center justify-center bg-pink-500 hover:bg-pink-400 text-white rounded-full w-16 h-16 shadow-lg transition-colors text-3xl"
+        onClick={scrollToTop}
+        aria-label="Scroll to Top"
+      >
+        <FaArrowUp size={24} />
+      </div>
+      
       )}
 
+      {/* Main content */}
       <Outlet />
+
+      {/* Footer */}
       <Footer />
     </div>
   );
