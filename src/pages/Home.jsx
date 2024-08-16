@@ -32,7 +32,7 @@ export default function Home() {
     <main id="content" className="neve-main font-sans">
       <div className="container mx-auto px-4">
         <section
-          className="relative bg-cover bg-center min-h-screen flex flex-col justify-center items-center"
+          className="relative mt-5 bg-cover bg-center min-h-screen flex flex-col justify-center items-center"
           style={{ backgroundImage: `url(${main})` }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-fuchsia-500 via-blue-500 to-blue-200 opacity-80"></div>

@@ -58,7 +58,7 @@ export default function MainLayout() {
       </div>
 
       {/* Navbar */}
-      <nav className="bg-fuchsia-400 text-white p-8 sticky top-0 z-40" style={{ top: 0 }}>
+      <nav className="bg-zinc-300 text-black p-8 sticky top-0 z-40" style={{ top: 0 }}>
         <div className="flex items-center justify-between">
           {/* Logo and Name */}
           <div className="flex items-center space-x-2">
@@ -66,7 +66,7 @@ export default function MainLayout() {
               <img
                 src="https://rubyseo.agency/wp-content/uploads/2024/07/R-1.png"
                 alt="Ruby SEO Agency Logo"
-                className="w-8 h-8 rounded-full md:w-10 md:h-10"
+                className="w-8 h-8  rounded-full md:w-10 md:h-10"
               />
               <span className="ml-2 text-2xl font-bold">
                 Ruby SEO Agency

@@ -5,7 +5,7 @@ import { faPhone, faEnvelopeOpen, faHome, faAddressBook, faBriefcase, faBlog } f
 
 const Footer = () => {
   return (
-    <footer className="bg-fuchsia-400 text-white p-8">
+    <footer className="bg-zinc-500 text-black p-8">
       <div className="container mx-auto flex flex-wrap justify-between">
         <div className="w-full sm:w-1/2 lg:w-1/4 p-8">
           <h3 className="text-lg font-semibold">Ruby SEO Agency</h3>
@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-8 flex flex-col sm:flex-row justify-center items-center bg-transparent text-white px-4">
+      <div className="mt-8 flex flex-col sm:flex-row justify-center items-center bg-transparent text-black px-4">
         <div className="text-sm mb-4 sm:mb-0">
           <p>&copy; {new Date().getFullYear()} Ruby SEO Agency. All rights reserved.</p>
         </div>
