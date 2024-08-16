@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Outlet, Link } from 'react-router-dom';
+
 import Footer from '../src/pages/Footer';
 import { FaArrowUp, FaPhoneAlt, FaWhatsapp, FaEnvelope, FaLinkedin, FaInstagram } from 'react-icons/fa'; 
 
