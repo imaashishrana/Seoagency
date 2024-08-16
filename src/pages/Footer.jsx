@@ -31,15 +31,21 @@ const Footer = () => {
             <ul>
               <li className="flex items-center mb-2">
                 <FontAwesomeIcon icon={faHome} className="mr-2" />
-                <a href="/" className="text-white hover:underline">Home</a>
+                <Link to="/" className=" hover:underline transition  duration-300">
+                Home
+              </Link>
               </li>
               <li className="flex items-center mb-2">
                 <FontAwesomeIcon icon={faAddressBook} className="mr-2" />
-                <a href="/about-us" className="text-white hover:underline">About Us</a>
+                <Link to="/about-us" className=" hover:underline transition duration-300">
+                About Us
+              </Link>
               </li>
               <li className="flex items-center mb-2">
                 <FontAwesomeIcon icon={faBriefcase} className="mr-2" />
-                <a href="/services" className="text-white hover:underline">Services</a>
+                <Link to="/services" className=" hover:underline transition duration-300">
+                Services
+              </Link>
               </li>
               
             </ul>
@@ -52,11 +58,15 @@ const Footer = () => {
             <ul>
             <li className="flex items-center">
                 <FontAwesomeIcon icon={faBriefcase} className="mr-2" />
-                <a href="/portfolio" className="text-white hover:underline">Portfolio</a>
+                <Link to="/portfolio" className=" hover:underline transition duration-300">
+                Portfolio
+              </Link>
               </li>
               <li className="flex items-center">
                 <FontAwesomeIcon icon={faEnvelopeOpen} className="mr-2" />
-                <a href="/contact-us" className="text-white hover:underline">Contact Us</a>
+                <Link to="/contact-us" className=" hover:underline transition duration-300">
+                Contact Us
+              </Link>
               </li>
               <li className="flex items-center mb-2">
                 <FontAwesomeIcon icon={faBlog} className="mr-2" />
