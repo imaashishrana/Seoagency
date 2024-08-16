@@ -10,7 +10,7 @@ import ContactUs from './pages/ContactUs';
 import Portfolio from './pages/Portfolio';
 import Services from './pages/Services';
 import Blog from './pages/Blog';
-import Footer from './pages/Footer';
+
 import BlogDetailPage from './pages/BlogDetailPage';  // Import BlogDetailPage component
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -25,7 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="services" element={<Services />} />
           <Route path="blog" element={<Blog />} />  {/* Update to BlogPage */}
           <Route path="blog/:title" element={<BlogDetailPage />} />  {/* Add dynamic blog route */}
-          <Route path="blog" element={<Footer />} /> 
+          
         </Route>
       </Routes>
     </Router>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 import { faPhone, faEnvelopeOpen, faHome, faAddressBook, faBriefcase, faBlog } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
@@ -59,7 +60,9 @@ const Footer = () => {
               </li>
               <li className="flex items-center mb-2">
                 <FontAwesomeIcon icon={faBlog} className="mr-2" />
-                <a href="/blog" className="text-white hover:underline">Our Blogs</a>
+                <Link to="/blog" className=" hover:underline transition duration-300">
+                Blog
+              </Link>
               </li>
               
             </ul>
