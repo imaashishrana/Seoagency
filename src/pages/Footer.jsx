@@ -27,6 +27,7 @@ const Footer = () => {
         <div className="w-full sm:w-1/2 lg:w-1/4 p-8">
           <h4 className="text-lg font-semibold">Services</h4>
           <nav className="mt-4">
+          <a href="/" className="text-white hover:underline">Home</a>
             <ul>
               <li className="flex items-center mb-2">
                 <FontAwesomeIcon icon={faHome} className="mr-2" />
