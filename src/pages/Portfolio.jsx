@@ -5,13 +5,13 @@ const Portfolio = () => {
     {
       imgSrc: 'https://www.rankontechnologies.com/wp-content/uploads/2022/05/one-page-seo-1024x799.jpg', // replace with actual image path
       title: 'On-Page SEO Services',
-      description: `Finest Organic Tea is one of the best tea companies in the UK. When they joined us, their sales output was “Null”. We implemented our SEO strategies, achieving 3x sales in just 4 months.`,
+      description: `Our On-Page SEO Services focus on optimizing your website’s content and structure to improve search engine rankings and user experience. We ensure that every aspect of your site, from keyword usage to meta tags and site speed, is fine-tuned for maximum visibility. We've helped clients achieve significant improvements in organic traffic and conversion rates through precise on-page optimization.`,
       link: '#'
     },
     {
       imgSrc: 'https://5.imimg.com/data5/SELLER/Default/2021/6/SO/IP/YR/41027239/off-page-seo-services.jpg', // replace with actual image path
       title: 'Off-Page SEO Services',
-      description: `Our On-Page SEO Services focus on optimizing your website’s content and structure to improve search engine rankings and user experience. We ensure that every aspect of your site, from keyword usage to meta tags and site speed, is fine-tuned for maximum visibility. We've helped clients achieve significant improvements in organic traffic and conversion rates through precise on-page optimization.`,
+      description: `Our Off-Page SEO services focus on improving your website's rankings through activities outside your website. These include building high-quality backlinks, social media marketing, guest blogging, influencer outreach, and online reputation management. The goal is to increase your website's authority, trustworthiness, and visibility on search engines by leveraging external factors.`,
       link: '#'
     },    
     {
