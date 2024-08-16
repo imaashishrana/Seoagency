@@ -28,42 +28,19 @@ const Footer = () => {
           <h4 className="text-lg font-semibold">Services</h4>
           <nav className="mt-4">
           <a href="/" className="text-white hover:underline">Home</a>
-            <ul>
-              <li className="flex items-center mb-2">
-                <FontAwesomeIcon icon={faHome} className="mr-2" />
-                <a href="/" className="text-white hover:underline">Home</a>
-              </li>
-              <li className="flex items-center mb-2">
-                <FontAwesomeIcon icon={faAddressBook} className="mr-2" />
-                <a href="/about-us" className="text-white hover:underline">About Us</a>
-              </li>
-              <li className="flex items-center mb-2">
-                <FontAwesomeIcon icon={faBriefcase} className="mr-2" />
-                <a href="/services" className="text-white hover:underline">Services</a>
-              </li>
-              
-            </ul>
+          <a href="/about-us" className="text-white hover:underline">About Us</a>
+          <a href="/services" className="text-white hover:underline">Services</a>
+            
           </nav>
         </div>
 
         <div className="w-full sm:w-1/2 lg:w-1/4 p-8">
-          <h5 className="text-lg font-semibold">About Us</h5>
+          <h4 className="text-lg font-semibold">About Us</h4>
           <nav className="mt-4">
-            <ul>
-            <li className="flex items-center">
-                <FontAwesomeIcon icon={faBriefcase} className="mr-2" />
-                <a href="/portfolio" className="text-white hover:underline">Portfolio</a>
-              </li>
-              <li className="flex items-center">
-                <FontAwesomeIcon icon={faEnvelopeOpen} className="mr-2" />
-                <a href="/contact-us" className="text-white hover:underline">Contact Us</a>
-              </li>
-              <li className="flex items-center mb-2">
-                <FontAwesomeIcon icon={faBlog} className="mr-2" />
-                <a href="/blog" className="text-white hover:underline">Our Blogs</a>
-              </li>
-              
-            </ul>
+          <a href="/blog" className="text-white hover:underline">Our Blogs</a>
+          <a href="/portfolio" className="text-white hover:underline">Portfolio</a>
+          <a href="/contact-us" className="text-white hover:underline">Contact Us</a>
+            
           </nav>
         </div>
       </div>
