@@ -5,7 +5,7 @@ import { faPhone, faEnvelopeOpen, faHome, faAddressBook, faBriefcase, faBlog } f
 
 const Footer = () => {
   return (
-    <footer className="bg-zinc-500 text-black p-8">
+    <footer className="bg-fuchsia-400 text-black p-8">
       <div className="container mx-auto flex flex-wrap justify-between">
         <div className="w-full sm:w-1/2 lg:w-1/4 p-8">
           <h3 className="text-lg font-semibold">Ruby SEO Agency</h3>

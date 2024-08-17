@@ -58,7 +58,7 @@ export default function MainLayout() {
       </div>
 
       {/* Navbar */}
-      <nav className="bg-zinc-300 text-black p-8 sticky top-0 z-40" style={{ top: 0 }}>
+      <nav className="bg-fuchsia-400 text-black p-8 sticky top-0 z-40" style={{ top: 0 }}>
         <div className="flex items-center justify-between">
           {/* Logo and Name */}
           <div className="flex items-center space-x-2">
@@ -114,7 +114,7 @@ export default function MainLayout() {
 
             {/* Small Dropdown Box */}
             {isMenuOpen && (
-              <div className="absolute right-0 mt-2 z-20 w-40 bg-gradient-to-r from-fuchsia-500 to-fuchsia-400 via-blue-500 to-blue-400 text-white rounded-lg shadow-lg">
+              <div className="absolute right-0 mt-2 z-20 w-40 bg-fuchsia-500 text-black rounded-lg shadow-lg">
                 <ul className="flex flex-col space-y-2 p-4">
                   <li>
                     <Link 
