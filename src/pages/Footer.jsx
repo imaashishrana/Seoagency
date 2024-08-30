@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-wrap justify-between">
         <div className="w-full sm:w-1/2 lg:w-1/4 p-8">
           <h3 className="text-lg font-semibold">Ruby SEO Agency</h3>
-          <ul className="mt-4">
+               <ul className="mt-4">
             <li className="flex items-center mb-2">
               <FontAwesomeIcon icon={faPhone} className="mr-2" />
               <a href="tel:+918155873084" className="hover:underline transition duration-300">

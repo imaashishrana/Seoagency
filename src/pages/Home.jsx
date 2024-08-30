@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
-import seo from "../assets/seo.jpg";
-import form from "../assets/form.jpg";
+import seo from "../assets/seo1.png";
+import form from "../assets/form1.jpg";
 import emailjs from "emailjs-com";
-import main from "../assets/main.jpg";
+import main from "../assets/main2.jpg";
 
 export default function Home() {
   const formRef = useRef();
@@ -98,7 +98,7 @@ export default function Home() {
         {/* Form Section */}
         <div className="bg-white w-full p-8 mx-auto my-12 rounded-lg shadow-lg flex flex-col md:flex-row">
           <div className="flex flex-wrap md:flex-nowrap justify-between">
-            <div className="w-full md:w-1/2 mb-8 md:mb-0">
+            <div className="w-full shadow-lg p-6 rounded-lg md:w-1/2 mb-8 md:mb-0">
               <h2 className="text-[#293985] text-xl md:text-2xl lg:text-3xl font-bold mb-4">
                 DO YOU WANT TO SECURE #1 POSITION IN GOOGLE SEARCH RESULTS, BUT DON’T KNOW WHERE TO GET STARTED?
               </h2>
@@ -182,7 +182,7 @@ export default function Home() {
             </div>
 
             <div className="w-full md:w-1/2 flex justify-center">
-              <img src={form} alt="SEO Team at Work" className="object-cover rounded-lg shadow-lg" />
+              <img src={form} alt="SEO Team at Work" className="object-cover rounded-lg " />
             </div>
           </div>
         </div>

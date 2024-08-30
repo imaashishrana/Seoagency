@@ -65,7 +65,7 @@ export default function MainLayout() {
           {/* Logo and Name */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <img src={logo} alt="Ruby SEO Agency Logo" className="w-60 h-17" />
+              <img src={logo} alt="Ruby SEO Agency Logo" className="w-40 h-17" />
               
             </Link>
           </div>

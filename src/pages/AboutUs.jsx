@@ -108,8 +108,8 @@ const AboutUs = () => {
               ].map((item, index) => (
                 <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-4">
                   <div className="bg-white p-6 rounded-lg shadow-md">
-                    <h4 className="text-lg md:text-xl font-semibold mb-2">{item.title}</h4>
-                    <p className="text-sm md:text-base">{item.description}</p>
+                    <h4 className="text-lg text-[#293985] md:text-xl font-semibold mb-2">{item.title}</h4>
+                    <p className="text-sm  md:text-base">{item.description}</p>
                   </div>
                 </div>
               ))}
@@ -128,7 +128,7 @@ const AboutUs = () => {
             </h2>
             <a
               href="/contact-us"
-              className="bg-[#293985] text-white py-3 px-6 rounded-full shadow-md hover:bg-blue-800"
+              className="bg-[#293985]  font-bold text-white py-3 px-6 rounded-full shadow-md hover:text-[#293985] hover:bg-white"
             >
               Discuss Now
             </a>
