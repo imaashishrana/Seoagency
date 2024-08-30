@@ -5,7 +5,7 @@ import { faPhone, faEnvelopeOpen, faHome, faAddressBook, faBriefcase, faBlog } f
 
 const Footer = () => {
   return (
-    <footer className="bg-fuchsia-400 text-black p-8">
+    <footer className="bg-[#121036] text-white p-8">
       <div className="container mx-auto flex flex-wrap justify-between">
         <div className="w-full sm:w-1/2 lg:w-1/4 p-8">
           <h3 className="text-lg font-semibold">Ruby SEO Agency</h3>
@@ -31,23 +31,22 @@ const Footer = () => {
             <ul>
               <li className="flex items-center mb-2">
                 <FontAwesomeIcon icon={faHome} className="mr-2" />
-                <Link to="/" className=" hover:underline transition  duration-300">
-                Home
-              </Link>
+                <Link to="/" className="hover:underline transition duration-300">
+                  Home
+                </Link>
               </li>
               <li className="flex items-center mb-2">
                 <FontAwesomeIcon icon={faAddressBook} className="mr-2" />
-                <Link to="/about-us" className=" hover:underline transition duration-300">
-                About Us
-              </Link>
+                <Link to="/about-us" className="hover:underline transition duration-300">
+                  About Us
+                </Link>
               </li>
               <li className="flex items-center mb-2">
                 <FontAwesomeIcon icon={faBriefcase} className="mr-2" />
-                <Link to="/services" className=" hover:underline transition duration-300">
-                Services
-              </Link>
+                <Link to="/services" className="hover:underline transition duration-300">
+                  Services
+                </Link>
               </li>
-              
             </ul>
           </nav>
         </div>
@@ -56,31 +55,30 @@ const Footer = () => {
           <h5 className="text-lg font-semibold">About Us</h5>
           <nav className="mt-4">
             <ul>
-            <li className="flex items-center">
+              <li className="flex items-center mb-2">
                 <FontAwesomeIcon icon={faBriefcase} className="mr-2" />
-                <Link to="/portfolio" className=" hover:underline transition duration-300">
-                Portfolio
-              </Link>
+                <Link to="/portfolio" className="hover:underline transition duration-300">
+                  Portfolio
+                </Link>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center mb-2">
                 <FontAwesomeIcon icon={faEnvelopeOpen} className="mr-2" />
-                <Link to="/contact-us" className=" hover:underline transition duration-300">
-                Contact Us
-              </Link>
+                <Link to="/contact-us" className="hover:underline transition duration-300">
+                  Contact Us
+                </Link>
               </li>
               <li className="flex items-center mb-2">
                 <FontAwesomeIcon icon={faBlog} className="mr-2" />
-                <Link to="/blog" className=" hover:underline transition duration-300">
-                Blog
-              </Link>
+                <Link to="/blog" className="hover:underline transition duration-300">
+                  Blog
+                </Link>
               </li>
-              
             </ul>
           </nav>
         </div>
       </div>
 
-      <div className="mt-8 flex flex-col sm:flex-row justify-center items-center bg-transparent text-black px-4">
+      <div className="mt-8 flex flex-col sm:flex-row justify-center items-center bg-transparent text-white px-4">
         <div className="text-sm mb-4 sm:mb-0">
           <p>&copy; {new Date().getFullYear()} Ruby SEO Agency. All rights reserved.</p>
         </div>

@@ -20,7 +20,7 @@ const BlogDetailPage = () => {
       </nav>
       <h1 className="text-3xl font-semibold text-blue-900 mb-6">{blog.formattedTitle}</h1>
       <p className="text-gray-700 mb-6">by {blog.author} | {blog.category}</p>
-      <div className="text-gray-700 mb-4">{blog.content}</div>
+      <div className="text-[#293985] mb-4">{blog.content}</div>
       
     </div>
   );

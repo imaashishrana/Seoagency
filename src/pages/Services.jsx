@@ -79,7 +79,7 @@ const Services = () => {
 
   return (
     <div className="container mx-auto bg-gray-100 px-10 py-10">
-      <h2 className="text-4xl font-bold text-center mb-8">Our Services</h2>
+      <h2 className="text-4xl text-[#293985] font-bold text-center mb-8">Our Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
         {services.map((service, index) => (
           <div
@@ -87,8 +87,8 @@ const Services = () => {
             className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300"
           >
             <div className="flex items-center mb-4 text-gray-800">
-              <FontAwesomeIcon icon={service.icon} className="text-blue-500 mr-3" />
-              <h3 className="text-xl font-semibold">{service.title}</h3>
+              <FontAwesomeIcon icon={service.icon} className="text-[#293985] mr-3" />
+              <h3 className="text-xl text-[#293985] font-semibold">{service.title}</h3>
             </div>
             <p className="text-gray-600">{service.description}</p>
           </div>
@@ -99,7 +99,7 @@ const Services = () => {
         <p className="text-gray-700 mb-6">
           Looking for a professional SEO freelancer with 5+ years of experience? Let’s connect and work on your next marketing project.
         </p>
-        <a href="/contact-us" className="bg-blue-500 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-600 transition-colors">
+        <a href="/contact-us" className="bg-[#293985] text-white px-6 py-3 rounded-full text-lg hover:bg-blue-800 transition-colors">
           Get Started
         </a>
       </div>

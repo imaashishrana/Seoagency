@@ -44,7 +44,7 @@ const ContactUs = () => {
       <div className="container mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-3xl md:text-4xl lg:text-4xl  text-black font-bold py-2 px-4 rounded-md inline-block">Contact Us</h1>
+          <h1 className="text-3xl md:text-4xl lg:text-4xl  text-[#293985] font-bold py-2 px-4 rounded-md inline-block">Contact Us</h1>
         </div>
 
         {/* Contact Information Section */}
@@ -62,8 +62,8 @@ const ContactUs = () => {
                 className="rounded-full"
               />
               <div>
-                <h2 className="text-lg font-semibold text-gray-800">Give Us A Call</h2>
-                <p className="text-gray-600">+91 81558-73084</p>
+                <h2 className="text-lg font-semibold text-[#293985]">Give Us A Call</h2>
+                <p className="text-grey-600">+91 81558-73084</p>
               </div>
             </div>
 
@@ -79,8 +79,8 @@ const ContactUs = () => {
                 className="rounded-full"
               />
               <div>
-                <h3 className="text-lg font-semibold text-gray-800">Office Location</h3>
-                <p className="text-gray-600">Udhana, Surat 394210</p>
+                <h3 className="text-lg font-semibold text-[#293985]">Office Location</h3>
+                <p className="text-grey-600">Udhana, Surat 394210</p>
               </div>
             </div>
 
@@ -96,7 +96,7 @@ const ContactUs = () => {
                 className="rounded-full"
               />
               <div>
-                <h4 className="text-lg font-semibold text-gray-800">Send Us A Message</h4>
+                <h4 className="text-lg font-semibold text-[#293985]">Send Us A Message</h4>
                 <p className="text-gray-600">farah@rubyseo.agency</p>
               </div>
             </div>
@@ -112,52 +112,52 @@ const ContactUs = () => {
 
           {/* Contact Form Section */}
           <div className="w-full md:w-1/2 lg:w-1/2 p-6 md:p-8">
-            <h5 className="text-xl md:text-2xl font-semibold mb-6 text-center text-gray-800">Get In Touch</h5>
+            <h5 className="text-xl md:text-2xl font-semibold mb-6 text-center text-[#293985]">Get In Touch</h5>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-semibold mb-2 text-gray-700">Name</label>
+                <label htmlFor="name" className="block text-sm font-semibold mb-2 text-[#293985]">Name</label>
                 <input
                   type="text"
                   id="name"
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full p-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full p-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#293985]"
                   required
                 />
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-semibold mb-2 text-gray-700">Email</label>
+                <label htmlFor="email" className="block text-sm font-semibold mb-2 text-[#293985]">Email</label>
                 <input
                   type="email"
                   id="email"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full p-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full p-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#293985]"
                   required
                 />
               </div>
               <div>
-                <label htmlFor="phone" className="block text-sm font-semibold mb-2 text-gray-700">Phone Number</label>
+                <label htmlFor="phone" className="block text-sm font-semibold mb-2 text-[#293985]">Phone Number</label>
                 <input
                   type="tel"
                   id="phone"
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full p-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full p-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#293985]"
                   required
                 />
               </div>
               <div>
-                <label htmlFor="service" className="block text-sm font-semibold mb-2 text-gray-700">Select Service</label>
+                <label htmlFor="service" className="block text-sm font-semibold mb-2 text-[#293985]">Select Service</label>
                 <select
                   id="service"
                   name="service"
                   value={formData.service}
                   onChange={handleChange}
-                  className="w-full p-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full p-4 text-[#293985] border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#293985]"
                   required
                 >
                   <option value="" disabled>Select a Service</option>
@@ -183,20 +183,20 @@ const ContactUs = () => {
                 </select>
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-semibold mb-2 text-gray-700">Message</label>
+                <label htmlFor="message" className="block text-sm font-semibold mb-2 text-[#293985]">Message</label>
                 <textarea
                   id="message"
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full p-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full p-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#293985]"
                   rows="4"
                   required
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full bg-blue-500 text-white p-4 rounded-md hover:bg-blue-600 transition duration-300"
+                className="w-full bg-[#293985] text-white p-4 rounded-md hover:bg-blue-600 transition duration-300"
               >
                 Send Message
               </button>
@@ -207,10 +207,10 @@ const ContactUs = () => {
         {/* Call to Action */}
         <div className="text-center bg-white p-6 md:p-8 rounded-lg shadow-lg mt-8">
           <h3 className="text-xl md:text-2xl font-bold mb-4">Let’s Work Together</h3>
-          <p className="text-gray-700 font-semibold mb-6">
+          <p className="[#293985] font-semibold mb-6">
             Looking for a professional SEO freelancer with 5+ years of experience? Let’s connect and work on your next marketing project.
           </p>
-          <a href="/contact-us" className="bg-blue-500 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-600 transition duration-300">
+          <a href="/contact-us" className="bg-[#293985] text-white px-6 py-3 rounded-full text-lg hover:bg-blue-800 transition duration-300">
             Get Started
           </a>
         </div>

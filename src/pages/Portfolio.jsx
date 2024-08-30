@@ -43,12 +43,12 @@ const Portfolio = () => {
   return (
     <div className="bg-gray-100 py-10">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-8">Portfolio</h2>
+        <h2 className="text-4xl font-bold text-[#293985] text-center mb-8">Portfolio</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8">
           {portfolioItems.map((item, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg p-6 text-center transition-transform transform hover:scale-105">
               <img src={item.imgSrc} alt={item.title} className="w-full h-60  object-contain mb-4 rounded" />
-              <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+              <h3 className="text-xl text-[#293985] font-bold mb-2">{item.title}</h3>
               <p className="text-gray-700  mb-4">{item.description}</p>
               
             </div>
@@ -58,12 +58,12 @@ const Portfolio = () => {
         {/* Why Choose Me Section */}
         <div className="mt-12 bg-white py-10 px-6 rounded-lg text-center shadow-lg">
           <img src={farah} alt="Profile" className="w-24 h-24 rounded-full object-cover mx-auto mb-4" /> {/* Replace with actual image path */}
-          <h3 className="text-2xl font-bold mb-4">Why Choose Us</h3>
+          <h3 className="text-2xl text-[#293985] font-bold mb-4">Why Choose Us</h3>
           <p className="text-gray-700 font-semibold mb-4">
             My expertise and data-driven approach optimize your website for maximum impact. With over 5 years of experience, 
           </p>
           <p className="text-gray-700 font-semibold mb-4">I offer tried-and-tested strategies to help your business grow and thrive.</p>
-          <p className="text-gray-900 font-bold">FARAH KAMIL</p>
+          <p className="text-[#293985] font-bold">FARAH KAMIL</p>
         </div>
         
       </div>

@@ -30,66 +30,68 @@ export default function Home() {
 
   return (
     <main id="content" className="neve-main font-sans">
-      <div className="container mx-auto px-4">
-        <section
-          className="relative mt-5 bg-cover bg-center min-h-screen flex flex-col justify-center items-center"
-          style={{ backgroundImage: `url(${main})` }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-r from-fuchsia-500 via-blue-500 to-blue-200 opacity-80"></div>
-
-          <div className="relative z-10 text-center text-white p-6">
-            <h1 className="text-4xl md:text-6xl font-extrabold mb-4">
-              #1 Enterprise SEO Company In Surat
-            </h1>
-            <p className="text-lg md:text-xl mb-8">
-              Ruby SEO Agency is India’s leading SEO company that works with a vision to help businesses build an effective online presence and generate valuable leads. With hundreds of satisfied clients, we tailor SEO campaigns to optimize your online presence and drive organic traffic.
-            </p>
-            <a
-              href="/contact-us"
-              className="bg-fuchsia-500 text-white py-3 px-6 rounded-full shadow-md hover:bg-fuchsia-400 "
-            >
-              Get Started
-            </a>
-          </div>
-        </section>
-
+      <div className="container mx-auto py-4 px-4">
         {/* Hero Section */}
-        <div className="relative flex flex-col md:flex-row items-stretch justify-between py-12 md:py-24 text-gray-800">
-          <div className="relative z-10 flex flex-col md:flex-row items-center text-center md:text-left md:space-x-8 px-4 md:px-0 flex-1 rounded-lg shadow-lg">
-            <div className="flex-1 bg-white p-6 flex flex-col justify-between">
-              <div>
-                <h6 className="text-3xl md:text-4xl font-extrabold text-fuchsia-600 mb-4">
-                  Welcome to Ruby SEO Agency
-                </h6>
-                <h1 className="text-2xl md:text-3xl font-bold mb-4">
-                  #1 Enterprise SEO Agency In Surat
-                </h1>
-                <p className="text-base md:text-lg mb-6">
-                  Ruby SEO Agency stands at the forefront of India’s SEO industry, dedicated to transforming businesses into digital powerhouses. We tailor our SEO campaigns to align with your specific goals, delivering measurable improvements in your digital performance.
-                </p>
-              </div>
-              <div className="flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
-                <a
-                  href="/contact-us"
-                  className="bg-fuchsia-500 text-white px-6 py-3 rounded-lg hover:bg-fuchsia-400 transition"
-                >
-                  Get Started
-                </a>
-                <a
-                  href="/contact-us"
-                  className="bg-fuchsia-500 text-white px-6 py-3 rounded-lg hover:bg-fuchsia-400 transition"
-                >
-                  Hire Us
-                </a>
-              </div>
+        <div className="relative overflow-hidden rounded-lg shadow-lg mb-12">
+          <div className="relative h-96 md:h-[600px]">
+            <video
+              src="https://cdn.seotechexperts.com/video/seo-hero-video.mp4"
+              autoPlay
+              loop
+              playsInline
+              muted
+              className="absolute inset-0 w-full h-full object-cover"
+            ></video>
+            <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white text-center px-4">
+              <h1 className="text-3xl md:text-5xl font-extrabold mb-4">
+                #1 Enterprise SEO Company In Surat
+              </h1>
+              <p className="text-lg md:text-xl mb-8">
+                Ruby SEO Agency is India’s leading SEO company that works with a vision to help businesses build an effective online presence and generate valuable leads. With hundreds of satisfied clients, we tailor SEO campaigns to optimize your online presence and drive organic traffic.
+              </p>
+              <a
+                href="/contact-us"
+                className="bg-white text-[#293985] font-bold py-3 px-6 rounded-full shadow-md hover:bg-[#293985] hover:text-white transition"
+              >
+                Get Started
+              </a>
             </div>
-            <div className="flex-1 flex items-center justify-center">
-              <img
-                src={seo}
-                alt="SEO Services"
-                className="w-full h-auto object-cover"
-              />
+          </div>
+        </div>
+
+        {/* Welcome Section */}
+        <div className="flex flex-col md:flex-row items-center justify-between py-12 md:py-24 text-gray-800">
+          <div className="flex-1 bg-white p-6 rounded-lg shadow-lg text-center md:text-left mb-8 md:mb-0 md:mr-8">
+            <h6 className="text-2xl md:text-3xl font-extrabold text-[#293985] mb-4">
+              Welcome to Ruby SEO Agency
+            </h6>
+            <h1 className="text-xl md:text-2xl font-bold mb-4">
+              #1 Enterprise SEO Agency In Surat
+            </h1>
+            <p className="text-base md:text-lg mb-6">
+              Ruby SEO Agency stands at the forefront of India’s SEO industry, dedicated to transforming businesses into digital powerhouses. We tailor our SEO campaigns to align with your specific goals, delivering measurable improvements in your digital performance.
+            </p>
+            <div className="flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
+              <a
+                href="/contact-us"
+                className="bg-[#293985] text-white px-6 py-3 rounded-lg hover:bg-fuchsia-400 transition"
+              >
+                Get Started
+              </a>
+              <a
+                href="/contact-us"
+                className="bg-[#293985] text-white px-6 py-3 rounded-lg hover:bg-fuchsia-400 transition"
+              >
+                Hire Us
+              </a>
             </div>
+          </div>
+          <div className="flex-1 flex items-center justify-center">
+            <img
+              src={seo}
+              alt="SEO Services"
+              className="w-full h-auto object-cover rounded-lg"
+            />
           </div>
         </div>
 
@@ -97,7 +99,7 @@ export default function Home() {
         <div className="bg-white w-full p-8 mx-auto my-12 rounded-lg shadow-lg flex flex-col md:flex-row">
           <div className="flex flex-wrap md:flex-nowrap justify-between">
             <div className="w-full md:w-1/2 mb-8 md:mb-0">
-              <h2 className="text-fuchsia-600 text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+              <h2 className="text-[#293985] text-xl md:text-2xl lg:text-3xl font-bold mb-4">
                 DO YOU WANT TO SECURE #1 POSITION IN GOOGLE SEARCH RESULTS, BUT DON’T KNOW WHERE TO GET STARTED?
               </h2>
               <p className="text-gray-700 mb-8">
@@ -109,7 +111,7 @@ export default function Home() {
                     type="text"
                     name="name"
                     placeholder="Name"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#293985]"
                     required
                   />
                 </div>
@@ -118,7 +120,7 @@ export default function Home() {
                     type="email"
                     name="email"
                     placeholder="Email Address"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#293985]"
                     required
                   />
                 </div>
@@ -127,14 +129,14 @@ export default function Home() {
                     type="tel"
                     name="phone"
                     placeholder="Phone"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#293985]"
                     required
                   />
                 </div>
                 <div className="mb-4">
                   <select
                     name="service"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full text-[#293985] px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#293985]"
                     required
                   >
                     <option value="">Select a Service</option>
@@ -164,14 +166,14 @@ export default function Home() {
                     name="message"
                     placeholder="Message"
                     rows="6"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#293985]"
                     required
                   ></textarea>
                 </div>
                 <div>
                   <button
                     type="submit"
-                    className="w-full bg-fuchsia-600 text-white py-2 rounded-md hover:bg-blue-700 transition-colors"
+                    className="w-full bg-[#293985] text-white py-2 rounded-md hover:bg-fuchsia-700 transition-colors"
                   >
                     Submit
                   </button>
@@ -180,7 +182,7 @@ export default function Home() {
             </div>
 
             <div className="w-full md:w-1/2 flex justify-center">
-              <img src={form} alt="SEO Team at Work" className="object-cover" />
+              <img src={form} alt="SEO Team at Work" className="object-cover rounded-lg shadow-lg" />
             </div>
           </div>
         </div>

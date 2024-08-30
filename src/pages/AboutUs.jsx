@@ -6,14 +6,14 @@ const AboutUs = () => {
       <div className="container mx-auto">
         
         <div className="mb-12">
-          <h1 className="text-3xl md:text-4xl text-center font-bold">About Us</h1>
+          <h1 className="text-3xl text-[#293985] md:text-4xl text-center font-bold">About Us</h1>
         </div>
 
         {/* Company Overview Section */}
         <section className="relative mx-5 py-10 rounded">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 p-5 md:p-10">
-              <h2 className="text-2xl md:text-3xl text-fuchsia-600 font-bold">Ruby SEO</h2>
+              <h2 className="text-2xl md:text-3xl text-[#293985] font-bold">Ruby SEO</h2>
               <p className="mt-4 text-sm md:text-base">
                 Welcome to Ruby SEO, your premier freelance SEO agency based in Surat, India. Run by Farah Kamil, a dedicated SEO freelancer with over 5 years of experience in digital marketing, Ruby SEO is committed to delivering exceptional SEO services tailored to your business needs.
               </p>
@@ -45,21 +45,21 @@ const AboutUs = () => {
               />
             </div>
             <div className="md:w-1/2 p-5 md:p-10">
-              <h2 className="text-2xl md:text-3xl text-fuchsia-600 font-bold">Leading with a Distinct Perspective</h2>
+              <h2 className="text-2xl md:text-3xl text-[#293985] font-bold">Leading with a Distinct Perspective</h2>
               <div className="mt-6">
-                <h3 className="text-xl md:text-2xl text-fuchsia-500 font-medium">Mission</h3>
+                <h3 className="text-xl md:text-2xl text-[#293985] font-medium">Mission</h3>
                 <p className="mt-2 text-sm md:text-base">
                   To create innovative and effective SEO strategies that help businesses thrive in the digital world.
                 </p>
               </div>
               <div className="mt-6">
-                <h3 className="text-xl md:text-2xl text-fuchsia-500 font-medium">Vision</h3>
+                <h3 className="text-xl md:text-2xl text-[#293985] font-medium">Vision</h3>
                 <p className="mt-2 text-sm md:text-base">
                   To be a leading freelance SEO agency recognized for delivering exceptional results and driving digital success.
                 </p>
               </div>
               <div className="mt-6">
-                <h3 className="text-xl md:text-2xl text-fuchsia-500 font-medium">Purpose</h3>
+                <h3 className="text-xl md:text-2xl text-[#293985] font-medium">Purpose</h3>
                 <p className="mt-2 text-sm md:text-base">
                   Our purpose is to empower businesses with the best SEO strategies to achieve their online goals and stand out in the competitive digital landscape.
                 </p>
@@ -71,7 +71,7 @@ const AboutUs = () => {
         {/* Brand Story Section */}
         <section className="p-6 md:p-10 mx-5 bg-white rounded-lg shadow-lg">
           <div className="text-center">
-            <h2 className="text-2xl md:text-3xl text-fuchsia-600 font-bold mb-6 md:mb-8">Brand Story</h2>
+            <h2 className="text-2xl md:text-3xl text-[#293985] font-bold mb-6 md:mb-8">Brand Story</h2>
             <div className="max-w-3xl mx-auto">
               <p className="mb-4 text-sm md:text-base">
                 At Ruby SEO, we take pride in our ability to craft personalized SEO solutions that drive tangible results. Founded by Farah Kamil, our agency has been dedicated to helping clients enhance their online presence and achieve digital success.
@@ -86,7 +86,7 @@ const AboutUs = () => {
         {/* Journey Section */}
         <section className="relative text-center my-5 mx-5 p-6 md:p-10 bg-white rounded-lg shadow-lg">
           <div className="container mx-auto">
-            <h2 className="text-2xl md:text-3xl text-fuchsia-600 font-bold mb-6 md:mb-8">Our Ever-Evolving Journey</h2>
+            <h2 className="text-2xl md:text-3xl text-[#293985] font-bold mb-6 md:mb-8">Our Ever-Evolving Journey</h2>
             <p className="max-w-3xl mx-auto text-sm md:text-base">
               Ruby SEO’s journey began with a mission to provide top-notch SEO services tailored to our clients' needs. Over the years, we have grown and evolved, always staying ahead of industry trends and delivering exceptional results.
             </p>
@@ -96,7 +96,7 @@ const AboutUs = () => {
         {/* What Sets Us Apart Section */}
         <section className="mx-5 p-6 md:p-10 bg-white rounded-lg shadow-lg">
           <div className="text-center">
-            <h2 className="text-2xl md:text-3xl font-bold text-fuchsia-600 mb-6 md:mb-8">What Sets Us Apart?</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-[#293985] mb-6 md:mb-8">What Sets Us Apart?</h2>
             <div className="flex flex-wrap justify-center">
               {[
                 { title: "Experience", description: "Over 5 years of expertise in SEO and digital marketing." },
@@ -123,12 +123,12 @@ const AboutUs = () => {
           style={{ backgroundImage: "url('/path/to/your-background-image.jpg')" }}
         >
           <div className="text-center">
-            <h2 className="text-fuchsia-500 text-2xl md:text-3xl font-bold mb-6 md:mb-8">
+            <h2 className="text-[#293985] text-2xl md:text-3xl font-bold mb-6 md:mb-8">
               Connect with an expert to discuss your requirements now
             </h2>
             <a
               href="/contact-us"
-              className="bg-fuchsia-500 text-white py-3 px-6 rounded-full shadow-md hover:bg-fuchsia-400"
+              className="bg-[#293985] text-white py-3 px-6 rounded-full shadow-md hover:bg-blue-800"
             >
               Discuss Now
             </a>

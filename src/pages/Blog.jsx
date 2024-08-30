@@ -5,7 +5,7 @@ import blogData from '../data/blogData';
 const Blog = () => {
   return (
     <div className="bg-gray-100 py-10 px-10 min-h-screen">
-      <h1 className="text-4xl font-bold black mb-12 text-center">
+      <h1 className="text-4xl font-bold text-[#293985] mb-12 text-center">
         Our Latest Blogs
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -21,7 +21,7 @@ const Blog = () => {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h2 className="text-2xl font-semibold mb-2 text-blue-500">
+                <h2 className="text-2xl font-semibold mb-2 text-[#293985]">
                   {blog.formattedTitle}
                 </h2>
                 <p className="text-sm text-gray-600 mb-4">{blog.date}</p>
@@ -31,7 +31,7 @@ const Blog = () => {
                     : 'No description available'}
                   ...
                 </p>
-                <span className="text-blue-300 hover:text-blue-700 font-semibold">
+                <span className="text-[#293985] hover:text-blue-800 font-semibold">
                   Read More
                 </span>
               </div>
