@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSearch,
@@ -99,9 +101,9 @@ const Services = () => {
         <p className="text-gray-700 mb-6">
           Looking for a professional SEO freelancer with 5+ years of experience? Let’s connect and work on your next marketing project.
         </p>
-        <a href="/contact-us" className="bg-[#293985] text-white px-6 py-3 rounded-full text-lg hover:bg-blue-800 transition-colors">
+        <Link href="/contact-us" className="bg-[#293985] text-white px-6 py-3 rounded-full text-lg hover:bg-blue-800 transition-colors">
           Get Started
-        </a>
+        </Link>
       </div>
     </div>
   );

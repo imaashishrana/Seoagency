@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -126,12 +127,12 @@ const AboutUs = () => {
             <h2 className="text-[#293985] text-2xl md:text-3xl font-bold mb-6 md:mb-8">
               Connect with an expert to discuss your requirements now
             </h2>
-            <a
+            <Link
               href="/contact-us"
               className="bg-[#293985]  font-bold text-white py-3 px-6 rounded-full shadow-md hover:text-[#293985] hover:bg-white"
             >
               Discuss Now
-            </a>
+            </Link>
           </div>
         </section>
       </div>

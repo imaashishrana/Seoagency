@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import fromright from "../assets/fromright.png";
+import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -210,9 +211,9 @@ const ContactUs = () => {
           <p className="[#293985] font-semibold mb-6">
             Looking for a professional SEO freelancer with 5+ years of experience? Let’s connect and work on your next marketing project.
           </p>
-          <a href="/contact-us" className="bg-[#293985] text-white px-6 py-3 rounded-full text-lg hover:bg-blue-800 transition duration-300">
+          <Link href="/contact-us" className="bg-[#293985] text-white px-6 py-3 rounded-full text-lg hover:bg-blue-800 transition duration-300">
             Get Started
-          </a>
+          </Link>
         </div>
       </div>
     </section>
