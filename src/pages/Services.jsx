@@ -97,7 +97,7 @@ const Services = () => {
         ))}
       </div>
       <div className="text-center bg-white p-8 rounded-lg shadow-lg mt-8">
-        <h3 className="text-2xl font-bold mb-4">Let’s Work Together</h3>
+        <h3 className="text-2xl text-[#293985] font-bold mb-4">Let’s Work Together</h3>
         <p className="text-gray-700 mb-6">
           Looking for a professional SEO freelancer with 5+ years of experience? Let’s connect and work on your next marketing project.
         </p>

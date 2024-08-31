@@ -1,5 +1,7 @@
 import React from 'react';
-import farah from "../assets/farah.jpg"
+import farah from "../assets/farah.jpg";
+import { Link } from "react-router-dom";
+
 const Portfolio = () => {
   const portfolioItems = [
     {
@@ -64,6 +66,16 @@ const Portfolio = () => {
           </p>
           <p className="text-gray-700 font-semibold mb-4">I offer tried-and-tested strategies to help your business grow and thrive.</p>
           <p className="text-[#293985] font-bold">FARAH KAMIL</p>
+        </div>
+
+        <div className="text-center bg-white p-6 md:p-8 rounded-lg shadow-lg mt-8">
+          <h3 className="text-[#293985] text-xl md:text-2xl font-bold mb-4">Let’s Work Together</h3>
+          <p className="[#293985] font-semibold mb-6">
+            Looking for a professional SEO freelancer with 5+ years of experience? Let’s connect and work on your next marketing project.
+          </p>
+          <Link to="/contact-us" className="bg-[#293985] text-white px-6 py-3 rounded-full text-lg hover:bg-blue-800 transition duration-300">
+            Contact Us
+          </Link>
         </div>
         
       </div>

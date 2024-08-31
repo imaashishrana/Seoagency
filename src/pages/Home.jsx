@@ -52,7 +52,7 @@ export default function Home() {
               </p>
               <Link
   to="/contact-us"
-  className="bg-white text-[#293985] font-bold py-3 px-6 rounded-full shadow-md hover:bg-[#293985] hover:text-white transition"
+  className="bg-[#293985] text-white  font-bold py-3 px-6 rounded-full shadow-md hover:bg-white hover:text-[#293985] transition"
 >
   Get Started
 </Link>
