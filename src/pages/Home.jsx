@@ -3,6 +3,7 @@ import seo from "../assets/seo1.png";
 import form from "../assets/form1.jpg";
 import emailjs from "emailjs-com";
 import main from "../assets/main2.jpg";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const formRef = useRef();
@@ -49,12 +50,13 @@ export default function Home() {
               <p className="text-lg md:text-xl mb-8">
                 Ruby SEO Agency is India’s leading SEO company that works with a vision to help businesses build an effective online presence and generate valuable leads. With hundreds of satisfied clients, we tailor SEO campaigns to optimize your online presence and drive organic traffic.
               </p>
-              <a
-                href="/contact-us"
-                className="bg-white text-[#293985] font-bold py-3 px-6 rounded-full shadow-md hover:bg-[#293985] hover:text-white transition"
-              >
-                Get Started
-              </a>
+              <Link
+  to="/contact-us"
+  className="bg-white text-[#293985] font-bold py-3 px-6 rounded-full shadow-md hover:bg-[#293985] hover:text-white transition"
+>
+  Get Started
+</Link>
+
             </div>
           </div>
         </div>
@@ -72,18 +74,20 @@ export default function Home() {
               Ruby SEO Agency stands at the forefront of India’s SEO industry, dedicated to transforming businesses into digital powerhouses. We tailor our SEO campaigns to align with your specific goals, delivering measurable improvements in your digital performance.
             </p>
             <div className="flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
-              <a
-                href="/contact-us"
-                className="bg-[#293985] text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition"
-              >
-                Get Started
-              </a>
-              <a
-                href="/contact-us"
-                className="bg-[#293985] text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition"
-              >
-                Hire Us
-              </a>
+            <Link
+  to="/contact-us"
+  className="bg-[#293985] text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition"
+>
+  Get Started
+</Link>
+
+<Link
+  to="/contact-us"
+  className="bg-[#293985] text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition"
+>
+  Hire Us
+</Link>
+
             </div>
           </div>
           <div className="flex-1 flex items-center justify-center">
