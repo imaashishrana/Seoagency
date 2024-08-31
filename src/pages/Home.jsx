@@ -74,13 +74,13 @@ export default function Home() {
             <div className="flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
               <a
                 href="/contact-us"
-                className="bg-[#293985] text-white px-6 py-3 rounded-lg hover:bg-fuchsia-400 transition"
+                className="bg-[#293985] text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition"
               >
                 Get Started
               </a>
               <a
                 href="/contact-us"
-                className="bg-[#293985] text-white px-6 py-3 rounded-lg hover:bg-fuchsia-400 transition"
+                className="bg-[#293985] text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition"
               >
                 Hire Us
               </a>
