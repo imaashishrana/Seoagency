@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import seo from "../assets/seo1.png";
 import form from "../assets/form1.jpg";
 import emailjs from "emailjs-com";
-import main from "../assets/main2.jpg";
+
 import { Link } from "react-router-dom";
 
 export default function Home() {

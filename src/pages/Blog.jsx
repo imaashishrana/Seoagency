@@ -27,9 +27,8 @@ const Blog = () => {
                 <p className="text-sm text-gray-600 mb-4">{blog.date}</p>
                 <p className="text-gray-700 mb-4">
                   {blog.description
-                    ? blog.description.slice(0, 100)
-                    : 'No description available'}
-                  ...
+                    ? `${blog.description.slice(0, 100)}...`
+                    : 'No description available.'}
                 </p>
                 <span className="text-[#293985] hover:text-blue-800 font-semibold">
                   Read More
