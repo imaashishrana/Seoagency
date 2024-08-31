@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import seo from "../assets/seo1.png";
 import form from "../assets/form1.jpg";
 import emailjs from "emailjs-com";
+import video from "../assets/video.mp4"
 
 import { Link } from "react-router-dom";
 
@@ -36,7 +37,7 @@ export default function Home() {
         <div className="relative overflow-hidden rounded-lg shadow-lg mb-12">
           <div className="relative h-96 md:h-[600px]">
             <video
-              src="https://cdn.seotechexperts.com/video/seo-hero-video.mp4"
+              src={video}
               autoPlay
               loop
               playsInline
