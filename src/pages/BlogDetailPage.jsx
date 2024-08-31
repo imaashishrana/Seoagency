@@ -18,7 +18,7 @@ const BlogDetailPage = () => {
       style={{ backgroundImage: `url('/path/to/your/background-image.jpg')` }}
     >
       <nav className="text-sm text-gray-500 mb-4">
-        <Link href="/blog">Blog</Link> » <span className="text-blue-900">{blog.formattedTitle}</span>
+        <Link to="/blog">Blog</Link> » <span className="text-blue-900">{blog.formattedTitle}</span>
       </nav>
       <h1 className="text-3xl font-semibold text-blue-900 mb-6">{blog.formattedTitle}</h1>
       <p className="text-gray-700 mb-6">by {blog.author} | {blog.category}</p>
