@@ -53,7 +53,7 @@ export default function Home() {
               </p>
               <Link
   to="/contact-us"
-  className="bg-[#293985] text-white  font-bold py-3 px-6 rounded-full shadow-md hover:bg-white hover:text-[#293985] transition"
+  className="bg-[#293985] text-white  font-bold py-3 px-6 rounded-full shadow-md hover:bg-blue-800  transition"
 >
   Get Started
 </Link>
@@ -178,7 +178,7 @@ export default function Home() {
                 <div>
                   <button
                     type="submit"
-                    className="w-full bg-[#293985] text-white py-2 rounded-md hover:bg-fuchsia-700 transition-colors"
+                    className="w-full bg-[#293985] text-white py-2 rounded-md hover:bg-blue-800 transition-colors"
                   >
                     Submit
                   </button>

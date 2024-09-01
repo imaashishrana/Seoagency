@@ -35,13 +35,13 @@ export default function MainLayout() {
       <div className="bg-[#121036] text-white p-4 flex justify-between items-center">
         {/* Left Side (Social Media Icons) */}
         <div className="flex space-x-4">
-          <a href="https://wa.me/918155873084" className="text-green-500 hover:text-sky-700 transition duration-300">
+          <a href="https://wa.me/918155873084" className="text-white hover:text-sky-700 transition duration-300">
             <FaWhatsapp size={24} />
           </a>
-          <a href="https://www.linkedin.com/in/farah-depariya-922b30262" className="text-[#273987] hover:text-sky-700 transition duration-300">
+          <a href="https://www.linkedin.com/in/farah-depariya-922b30262" className="text-white hover:text-sky-700 transition duration-300">
             <FaLinkedin size={24} />
           </a>
-          <a href="https://www.instagram.com/seofreelancer7100" className="text-pink-500 hover:text-sky-700 transition duration-300">
+          <a href="https://www.instagram.com/seofreelancer7100" className="text-white hover:text-sky-700 transition duration-300">
             <FaInstagram size={24} />
           </a>
         </div>
@@ -75,10 +75,11 @@ export default function MainLayout() {
             {[
               { to: '/', label: 'Home' },
               { to: '/about-us', label: 'About Us' },
-              { to: '/contact-us', label: 'Contact Us' },
+              
               { to: '/portfolio', label: 'Portfolio' },
               { to: '/services', label: 'Services' },
               { to: '/blog', label: 'Blog' },
+              { to: '/contact-us', label: 'Contact Us' },
             ].map((item) => (
               <li key={item.to}>
                 <Link
@@ -112,10 +113,10 @@ export default function MainLayout() {
               {[
                 { to: '/', label: 'Home' },
                 { to: '/about-us', label: 'About Us' },
-                { to: '/contact-us', label: 'Contact Us' },
                 { to: '/portfolio', label: 'Portfolio' },
                 { to: '/services', label: 'Services' },
                 { to: '/blog', label: 'Blog' },
+                { to: '/contact-us', label: 'Contact Us' },
               ].map((item) => (
                 <li key={item.to}>
                   <Link
@@ -138,13 +139,13 @@ export default function MainLayout() {
         <div className="fixed bottom-4 right-5 flex flex-col space-y-4 md:space-x-4 md:space-y-0 md:flex-row  z-20">
           {/* Call, Email, WhatsApp Buttons */}
           <div className="flex flex-col space-y-4 md:space-y-4">
-            <a href="tel:+918155873084" className="bg-[#293985] hover:bg-blue-800 text-white p-4 rounded-full shadow-lg">
+            <a href="tel:+918155873084" className="bg-black hover:bg-blue-800 text-white p-4 rounded-full shadow-lg">
               <FaPhoneAlt size={24} />
             </a>
-            <a href="mailto:farah@rubyseo.agency" className="bg-red-600 hover:bg-red-500 text-white p-4 rounded-full shadow-lg">
+            <a href="mailto:farah@rubyseo.agency" className="bg-black hover:bg-blue-800 text-white p-4 rounded-full shadow-lg">
               <FaEnvelope size={24} />
             </a>
-            <a href="https://wa.me/918155873084" className="bg-green-600 hover:bg-green-500 text-white p-4 rounded-full shadow-lg">
+            <a href="https://wa.me/918155873084" className="bg-black hover:bg-blue-800 text-white p-4 rounded-full shadow-lg">
               <FaWhatsapp size={24} />
             </a>
           </div>
@@ -153,7 +154,7 @@ export default function MainLayout() {
           {isVisible && (
             <button
               onClick={scrollToTop}
-              className="fixed bottom-4 left-4 bg-[#293985] hover:bg-blue-800 text-white p-4 rounded-full shadow-lg"
+              className="fixed bottom-4 left-4 bg-black hover:bg-blue-800 text-white p-4 rounded-full shadow-lg"
             >
               <FaArrowUp size={24} />
             </button>

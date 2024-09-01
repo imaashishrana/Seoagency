@@ -129,7 +129,7 @@ const AboutUs = () => {
             </h2>
             <Link
               href="/contact-us"
-              className="bg-[#293985]  font-bold text-white py-3 px-6 rounded-full shadow-md hover:text-[#293985] hover:bg-white"
+              className="bg-[#293985]  font-bold text-white py-3 px-6 rounded-full shadow-md  hover:bg-blue-800"
             >
               Discuss Now
             </Link>
